@@ -1,0 +1,241 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.navbar{
+    background-color: #284b63;
+}
+.navbar i{
+    color: #fff;
+    font-size: 24px;
+    margin: 15px;
+}
+
+.menu{
+    background-color:rgba(0,0,0,0.5);
+    display: none;
+    padding: 0 60px 0 0;
+    position: absolute;
+    
+}
+
+.menu li{
+    color: #fff;
+    width: 100%;
+    font-size: 1.3rem;
+    padding: 20px 0;
+    list-style: none;
+    text-align: left;
+}
+
+.menu li:hover{
+    background-color: #284b63;
+}
+
+header{
+    background-color: #284b63;
+    color: #fff;
+    padding: 20px 0 80px 0;
+    text-align: center;
+}
+h1{
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+h2{
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 16px;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 900px;
+}
+
+.btn{
+    display:inline-block;
+    background-color: #549DA0;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 12px 16px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+.btn:hover{
+    background: #468486;
+}
+
+.submenu{
+    background-color: #549DA0;
+    border-radius: 5px;
+    min-width: 160px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    display: none;
+    
+}
+.submenu a{
+    color: #fff;
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+.submenu a:hover{
+    background-color: #468486;
+}
+section{
+    padding: 40px 0;
+    text-align: center;
+}
+.features{
+    background-color: #fff;
+    color: #000;
+}
+.feature{
+    display: inline-block;
+    font-size: 16px;
+    width: 32%;
+}
+.feature i{
+    font-size: 48px;
+    width: 40%;
+    
+}
+.quote{
+    background-color: #549DA0;
+    color: #fff;
+}
+blockquote{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+blockquote p{
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+blockquote cite{
+    font-size: 16px;
+    font-style: italic;
+}
+blockquote cite::before{
+    content: '-';
+    margin-right: 5px;
+}
+footer{
+    background-color: #353535;
+    color: #868686;
+    padding: 32px 0;
+    text-align: center;
+}
+footer ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+footer li{
+    display: inline-block;
+}
+footer a{
+    padding: 6px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #c3c3c3;
+
+}
+footer a:hover{
+    background-color: #fff;
+}
+
+/*Responsive area*/
+
+@media  screen and (max-width:480px) {
+
+.menu{
+    padding: 35%;
+}
+
+.btn{
+    display: block;
+    font-size: 18px;
+}
+
+.submenu{
+    display: block;
+    position: relative;
+}
+h1{
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+h2{
+    font-size: 18px;
+}
+section{
+    padding: 25px 0 15px 0;
+}
+.feature{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin:0 0 10px 0;    
+    font-size: 18px;
+
+}
+.feature i{
+    width: 15%;
+    min-width: 60px;
+    margin: 0 10px 0 0;
+    
+}
+
+.feature .i2{
+    margin-left: 18px;
+}
+.feature .i3{
+    margin-left: -33px;
+}
+.quote{
+    padding: 30px 0;
+}
+blockquote p{
+    font-size: 18px;
+}
+blockquote cite{
+    font-size: 14px;
+}
+footer{
+    padding: 30px 0 ;
+}
+footer li{
+    width: 100%;
+    margin: 5px 0;
+   
+}
+
+}
+
+
+/* workers*/
+h3{
+    margin: 0;
+}
+.worker-navbar , .area-navbar{
+    background: #284b63;
+    color: #fff;
+    padding: 1rem 5%;
+}
